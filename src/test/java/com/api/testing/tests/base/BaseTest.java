@@ -9,6 +9,8 @@ import org.testng.annotations.BeforeMethod;
 public class BaseTest {
 
     protected static final Logger log = LogManager.getLogger(BaseTest.class);
+    
+    
 
     @BeforeMethod
     public void setup() {
